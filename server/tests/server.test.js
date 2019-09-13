@@ -70,7 +70,7 @@ describe('GET /todos', () => {
 });
 
 describe('GET /todos/:id', () => {
-  it('should return todo documnet', (done) => {
+  it('should return todo document', (done) => {
     request(app)
       .get(`/todos/${todos[0]._id.toHexString()}`)
       .expect(200)
