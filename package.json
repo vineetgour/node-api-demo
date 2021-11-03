@@ -19,7 +19,7 @@
     "mongodb": "^3.3.2",
     "mongoose": ">=5.7.5",
     "npm-watch": "^0.6.0",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "expect": "^24.9.0",
